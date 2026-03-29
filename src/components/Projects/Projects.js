@@ -13,6 +13,7 @@ import computerEcom from "../../Assets/Projects/javeee.png";
 import realEstate from "../../Assets/Projects/realstate.png";
 import adoption from "../../Assets/Projects/pet.webp";
 import salad from "../../Assets/Projects/food.png";
+import baking from "../../Assets/Projects/pttdelices.png"
 
 /* ==== MOBILE PROJECTS ==== */
 import courseApp from "../../Assets/Projects/android.png";
@@ -93,6 +94,14 @@ function Projects() {
               imgPath={salad}
               title="Salad Ordering Website"
               description="Online salad ordering platform built using Angular + JsonServer."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={baking}
+              title="home made baking  Website"
+              ghLink="https://github.com/amalbenrabah1/lesPetitsDelices"
+              description="Online home made baking  platform built using React  + Spring boot + postgreSQL."
             />
           </Col>
         </Row>
